@@ -1,0 +1,53 @@
+#main-hero {
+	background-image: linear-gradient(
+			to left,
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.75)
+		),
+		url(mixer.jpg);
+	background-size: cover;
+	width: 100%;
+	max-width: 1200px;
+	margin: 100px auto;
+	min-height: 450px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+h1,
+h2,
+button {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#main-hero div {
+	/* max-width: 50%; */
+	padding-left: 80px;
+}
+
+h1 {
+	font-size: 2.5em;
+	letter-spacing: 1px;
+	margin-top: 0;
+}
+h2 {
+	font-weight: 100;
+	font-size: 1.25em;
+	line-height: 28px;
+}
+
+button {
+	background: linear-gradient(to left, darkcyan 50%, #ff7474 50%) right;
+	background-size: 200%;
+	transition: background-position 0.25s ease-out;
+	padding: 10px 20px;
+	border: 0;
+	border-radius: 2px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-position: left;
+}
