@@ -1,0 +1,27 @@
+.hero{
+    background:linear-gradient(to right, black, transparent),url(mixer.webp);
+    height: 450px;
+    max-width: 1200px;
+    margin: auto;
+    background-position: center;
+    
+}
+
+.text{
+    padding-left: 100px;
+    padding-top: 100px;
+    font-family: "Roboto", sans-serif;  
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 0.7;
+    font-weight: 400;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    background-color: #259c84;
+    width: 173px;
+    height: 37px;
+    justify-content: center;
+}

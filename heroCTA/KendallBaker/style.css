@@ -1,0 +1,40 @@
+img{
+    height: 450px;
+    max-width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraph-1{
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    color: white;
+    position: absolute;
+    bottom: 350px;
+    left: 295px;
+}
+.paragraph-2{
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    position: absolute;
+    color: white;
+    bottom: 300px;
+    left: 295px;
+}
+button{
+    position: absolute;
+    bottom: 200px;
+    left: 295px;
+    color: white;
+    background-color: hsl(180deg 78% 30%);
+    border-radius: 10px;
+    border-color: white;
+}
+button:hover{
+    background-color: gold;
+    color:black;
+}
+body{
+    background-color: black;
+}

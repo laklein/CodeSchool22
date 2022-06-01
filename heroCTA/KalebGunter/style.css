@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+.hero{
+    height: 450px;
+    max-width: 1200px;
+    justify-content: center;
+    margin: auto;
+    background-image: url("images/mixer.jpg");
+    background-size: cover;
+    
+}
+#mixer {
+    height: 450px;
+    width: 1200px;
+}
+h1{
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 57%;
+    font-family: Roboto;
+    color: #fff;
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+h2{
+    font-family: Roboto;
+    font-weight: lighter;
+    color: #fff;
+    font-size: 1.5rem;
+    padding-left: 5%;
+    padding-right: 61%;
+}
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    background-color: #7BC2BC;
+    height: 40px;
+    width: 160px;
+    margin-left: 5%;
+    color: #fff;
+    font-weight: lighter;
+    margin-top: 2.5%;
+}
+#button:hover{
+    color: aquamarine;
+    background-color: #fff;
+}

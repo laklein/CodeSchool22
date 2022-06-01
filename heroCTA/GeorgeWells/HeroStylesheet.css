@@ -1,0 +1,37 @@
+  #container {
+    background-image: url(mixer-g6e461373d_1920.jpg);
+    color: white;
+    max-width: 1200px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px;
+
+  }
+
+h1 {
+  font-size: 300%
+}
+
+small {
+  font-size: 150%
+}
+
+button {
+  margin-top: 80px;
+  background-color:teal;
+  color: white;
+  width: 180px;
+  height: 40px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  border: 0px
+  ;
+}
+
+button:hover {
+  background-color:aquamarine;
+  color: black;
+
+}
