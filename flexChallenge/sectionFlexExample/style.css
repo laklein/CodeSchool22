@@ -1,0 +1,38 @@
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.two-column-section {
+	margin: 80px 0;
+	display: flex;
+}
+.reverse {
+	flex-direction: row-reverse;
+}
+.section-right {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.section-details {
+	max-width: 500px;
+}
+.section-details h2 {
+	margin-top: 0;
+	font-size: 2em;
+}
+.section-details p {
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+.section-btn {
+	padding: 10px 20px;
+	background-color: tomato;
+	color: white;
+	border-radius: 3px;
+	width: 100px;
+	display: flex;
+	justify-content: space-between;
+}
