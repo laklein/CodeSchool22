@@ -1,0 +1,41 @@
+#mixer{
+
+    background-image: url(mixer.jpg); 
+    max-width: 1200px; 
+    height: 450px;
+    padding: 100px;
+    margin-left: auto;
+    margin-right: auto; 
+    line-height: 25px;
+       
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 300%;
+    line-height: 45px;
+    
+}
+small {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 200%;
+    
+}
+button {
+    background-color:darkcyan;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition-duration: .35s;
+}
+button:hover{
+    background-color: aquamarine;
+    color: black ;
+}
+   

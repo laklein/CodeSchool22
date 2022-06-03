@@ -1,0 +1,52 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, #5c323b, #45533c, #3e65e7);
+}
+#heroMixer{
+    background-image: url(heroMixer.jpg);
+    height: 450px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+h1{
+    font-size: 45px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px;
+    padding-right: 43px;
+    padding-left: 15px;
+}
+h2{
+    font-size: 30px;
+    color: #fff;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 75px;
+    padding-left: 15px;
+}
+#CTA{
+    background-color: #42a7f0;
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 124px;
+    border: none;
+    border-radius: 12px;
+}
+#CTA:hover{
+    background-color: #353555;
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 24%), 0 17px 50px 0 rgb(0 0 0 / 19%);
+}

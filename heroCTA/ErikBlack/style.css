@@ -1,0 +1,48 @@
+/* font-family: "Roboto", sans-serif; */
+
+.heroSection {
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 1)
+    ),
+    url(heroimage.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.headerBox {
+  font-family: "Roboto", sans-serif;
+  max-width: 33%;
+  color: white;
+  margin-left: 100px;
+}
+h1 {
+  font-weight: 700;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #12898d;
+  font-size: 10px;
+  font-weight: 300;
+  padding: 10px;
+  border: none;
+  color: white;
+  transition: background-color 0.5s ease-in-out;
+}
+
+button:hover {
+  background-color: #083b3d;
+}

@@ -1,0 +1,42 @@
+* {
+    font-family: Roboto;
+}
+
+img {
+    max-width: 1200px;
+    height: 450px;
+    float:left;
+}
+
+h1{
+    flex: 100%;
+    display: block;
+}
+
+h3{
+    flex: 100%;
+    display: block;
+}
+
+button {
+    border: none;
+    height: 50px;
+    width: 120px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color:darkolivegreen;
+    transition: 1s;
+}
+
+main {
+    background-image: url("mainPic.jpg");
+    /*display: flex;*/
+    padding: 50px 40px;
+    text-align: left;
+    color: white;
+}
+

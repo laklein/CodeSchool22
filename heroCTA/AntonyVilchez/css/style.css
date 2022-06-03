@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Koulen', cursive;
+    font-size: 18px;
+}
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.422), rgba(0, 0, 0, 0.406)), url('/img/gym1.jpg') no-repeat center / cover;
+    color: white;
+}
+
+.container{
+    width: 90%;
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container .info h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.container .info h2{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.container .info a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    padding: 0.5em 2em;
+    margin-top: 2rem;
+    color: red;
+}
+
+.container .info p{
+    font-size:  1.2rem;
+    max-width: 70%;
+    margin: 0 auto;
+    
+}
+
