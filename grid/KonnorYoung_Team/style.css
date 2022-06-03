@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.gridText{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+/* Konnor's Grid css */
+.littlegrid {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(5, 120px);
+    grid-template-rows: repeat(6, 100px);
+}
+
+.littlegrid, .littlegrid2 > * {
+    height: 100%;
+    width: auto;
+}
+
+.pic1k{
+    grid-area: 1 / 1 / 4 / 3;
+    background-image: url("https://picsum.photos/240/300");
+}
+.pic2k{
+    grid-area: 1 / 3 / 2 / 4;
+    background-image: url("https://picsum.photos/120/100");
+}
+.pic3k{
+    grid-area: 1 / 4 / 2 / 5;
+    background-image: url("https://picsum.photos/120/100");
+}
+.pic4k{
+    grid-area: 1 / 5 / 2 / 6;
+    background-image: url("https://picsum.photos/120/100");
+}
+.pic5k{
+    grid-area: 4 / 1 / 5 / 2;
+    background-image: url("https://picsum.photos/120/100");
+}
+.pic6k{
+    grid-area: 4 / 2 / 5 / 3;
+    background-image: url("https://picsum.photos/120/100");
+}
+.pic7k{
+    grid-area: 2 / 3 / 5 / 6;
+    background-image: url("https://picsum.photos/360/300");
+}
+.pic8k{
+    grid-area: 5 / 1 / 7 / 3;
+    background-image: url("https://picsum.photos/240/200");
+}
+.pic9k{
+    grid-area: 5 / 3 / 7 / 5;
+    background-image: url("https://picsum.photos/240/200");
+}
+.pic10k{
+    grid-area: 5 / 5 / 6 / 6;
+    background-image: url("https://picsum.photos/120/100");
+}
+.pic11k{
+    grid-area: 6 / 5 / 7 / 6;
+    background-image: url("https://picsum.photos/120/100");
+}
+/* end Konnor's grid */
+
+/* Jake's Grid css */
+.littlegrid2{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(6, 100px);
+}
+
+.pic1j{
+    grid-area: 1 / 1 / 5 / 5;
+    background-image: url("https://picsum.photos/400/400");
+}
+.pic2j{
+    grid-area: 1 / 5 / 3 / -1;
+    background-image: url("https://picsum.photos/200/200");
+}
+.pic3j{
+    grid-area: 3 / 5 / 4 / -2;
+    background-image: url("https://picsum.photos/100/100");
+}
+.pic4j{
+    grid-area: 3 / 6 / 4 / -1;
+    background-image: url("https://picsum.photos/100/100");
+}
+.pic5j{
+    grid-area: 4 / 5 / 5 / -2;
+    background-image: url("https://picsum.photos/100/100");
+}
+.pic6j{
+    grid-area: 4 / 6 / 5 / -1;
+    background-image: url("https://picsum.photos/100/100");
+}
+.pic7j{
+    grid-area: 5 / 1 / -1 / 3;
+    background-image: url("https://picsum.photos/200/200");
+}
+.pic8j{
+    grid-area: 5 / 3 / -2 / 5;
+    background-image: url("https://picsum.photos/100/100");
+}
+.pic9j{
+    grid-area: 5 / 4 / -2 / 6;
+    background-image: url("https://picsum.photos/100/100");
+}
+.pic10j{
+    grid-area: 6 / 3 / -1 / 5;
+    background-image: url("https://picsum.photos/100/100");
+}
+.pic11j{
+    grid-area: 6 / 4 / -1 / 6;
+    background-image: url("https://picsum.photos/100/100");
+}
+.pic12j{
+    grid-area: 5 / 5 / -1 / -1;
+    background-image: url("https://picsum.photos/200/200");
+}
+/* end Jake's grid */
