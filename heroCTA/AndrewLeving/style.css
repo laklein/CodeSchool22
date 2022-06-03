@@ -1,0 +1,39 @@
+.hero {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 450px;
+  max-width: 1200px;
+  width: 100%;
+  background-size: cover;
+  background-image: url('mixer.jpg');
+}
+
+.hero-text {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: larger;
+  margin-left: 100px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button {
+  display: inline-block;
+  background-color: rgb(75, 146, 122);
+  height: auto;
+  width: 150px;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 12px;
+  transition-duration: .2s;
+  cursor: pointer;
+  border: none;
+  color: inherit;
+}
+
+.button:hover {
+  background-color: rgb(48, 94, 78);
+}
